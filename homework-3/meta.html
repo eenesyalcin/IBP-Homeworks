@@ -1,0 +1,102 @@
+<!-- HTML CODES -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- 
+            Specifies the character encoding of the page. This code makes Turkish characters on the page appear properly.
+        -->
+        <meta charset="UTF-8">
+
+        <!-- It is a sentence that gives information about the whole website. -->
+        <meta name="Abstract" content="Form input örnekleri">
+
+        <!-- The name of the site builder is the tag with the contact information. -->
+        <meta name="Author" content="Enes YALÇIN, enes@gmail.com">
+
+        <!-- It is a label that gives information about the copyright of the site. -->
+        <meta name="Copyright" content="Bu projede hakları tamamen Enes YALÇIN'a aittir.">
+
+        <!-- 
+            It is one of the basic tags that some search engines rely on, providing information about site.
+        -->
+        <meta name="description" content="HTML5 ile en iyi web projelerine ulaşmak istiyorsanız doğru adrestesiniz.">
+
+        <!-- The tag that informs search engines on what date the site's content has expired. -->
+        <meta name="Expires" content="Mon, 12 Jan 2007 17:45:05 GMT">
+
+        <!--
+            A tag containing the words that make up the content of your site, on which search engines are based.
+        -->
+        <meta name="keywords" content="HTML5, web application, web projects, web, form">
+
+        <!-- The tag that specifies your site's default language. -->
+        <meta name="revisit-after" content="7 days">
+
+        <!-- A tag that tells search engines how often the site's content is updated. -->
+        <meta http-equiv="refresh" content="60">
+
+        <!-- 
+            A tag that periodically refreshes the page. 60 in the example indicates that the page will be refreshed every 60 seconds.
+        -->
+        <meta http-equiv="content-language" content="tr">
+
+        <!-- 
+            It allows the page to redirect to another page after a certain time. In the example, the page redirects to another page after 2 seconds. 
+        -->
+        <meta http-equiv="refresh" content="2; url=http://www.google.com"> 
+
+        <!-- INTEGRATING THE CSS FILE -->
+        <link rel="stylesheet" href="style.css">
+        <!-- BOOTSTRAP LIBRARY INTEGRATED -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- Webpage title -->
+        <title>Meta Tags</title>
+    </head>
+
+    <body class="bg-color-body">
+
+        <section class="text-dark">
+            <div class="container mt-50">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 bg-light rounded-4 shadow">
+                        <div class="card-bg-primary my-5 mx-5">   
+
+                            <!-- HTML FORM CODES -->
+                            <form action="post-form.php" method="post">
+                                <div class="mb-5 d-flex justify-content-center">
+                                    <h1 class="d-inline-block me-2">
+                                        <span class="me-2"><b>LOGIN</b></span>
+                                    </h1>
+                                </div>
+
+                                <!-- Email -->
+                                <div class="mb-5">
+                                    <p class="d-inline-block me-2">Email</p>
+                                    <input type="email" class="form-control form-control-lg" placeholder="E-mail address">
+                                </div>
+
+                                <!-- Password -->
+                                <div class="mb-5">
+                                    <p class="d-inline-block me-2">Password</p>
+                                    <input type="password" class="form-control form-control-lg" placeholder="Password">
+                                </div>
+
+                                <!-- Submit button -->
+                                <div class="mb-5 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary mb-3 rounded-pill" name="submit">SUBMIT</button>
+                                </div>
+                            </form> <!-- END OF HTML FORM CODE BLOCKS -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- JAVASCRIPT LIBRARY INTEGRATED -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    </body>
+</html> <!-- END OF HTML CODE BLOCK -->

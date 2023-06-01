@@ -1,0 +1,17 @@
+/* CSS style codes for background image */
+#home{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 755px;
+}
+
+#home .img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 755px;
+    background: rgba(0, 0, 0, 0.7);
+}
